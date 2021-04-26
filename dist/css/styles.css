@@ -9799,8 +9799,8 @@ button.bg-dark:focus {
   font-style: italic !important;
 }
 
-.text-white {
-  color: #fff !important;
+.text-black {
+  color: #000000 !important;
 }
 
 .text-primary {
@@ -10025,21 +10025,29 @@ h3 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background-color: #e5e5e5;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #e5e5e5;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   opacity: 0.3;
 }
+
+div.divumedois{
+	background-color:#ffffff;
+}
+
+div.divtres{
+	background-color:#c4c4c4;
+}
+
 header.masthead h1 {
   font-size: 2rem;
 }
